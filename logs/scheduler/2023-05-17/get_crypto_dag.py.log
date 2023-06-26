@@ -1,0 +1,630 @@
+[2023-05-17T13:03:00.770+0000] {processor.py:156} INFO - Started process (PID=94) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:03:00.885+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:03:00.888+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:03:00.887+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:03:02.003+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:03:01.994+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:03:02.070+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:03:03.577+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 2.813 seconds
+[2023-05-17T13:08:36.546+0000] {processor.py:156} INFO - Started process (PID=196) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:08:36.619+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:08:36.621+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:08:36.620+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:08:36.687+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:08:36.675+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:08:36.697+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:08:36.866+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.328 seconds
+[2023-05-17T13:09:17.647+0000] {processor.py:156} INFO - Started process (PID=244) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:09:17.651+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:09:17.657+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:09:17.653+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:09:17.819+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:09:17.796+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:09:17.830+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:09:17.970+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.337 seconds
+[2023-05-17T13:09:48.517+0000] {processor.py:156} INFO - Started process (PID=300) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:09:48.521+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:09:48.526+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:09:48.526+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:09:48.598+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:09:48.581+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:09:48.603+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:09:48.850+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.339 seconds
+[2023-05-17T13:10:23.017+0000] {processor.py:156} INFO - Started process (PID=352) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:10:23.021+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:10:23.025+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:10:23.024+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:10:23.170+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:10:23.121+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:10:23.175+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:10:23.356+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.347 seconds
+[2023-05-17T13:10:56.483+0000] {processor.py:156} INFO - Started process (PID=402) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:10:56.489+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:10:56.493+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:10:56.492+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:10:56.596+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:10:56.578+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:10:56.600+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:10:57.012+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.543 seconds
+[2023-05-17T13:11:27.372+0000] {processor.py:156} INFO - Started process (PID=455) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:11:27.377+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:11:27.381+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:11:27.380+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:11:27.438+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:11:27.429+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:11:27.442+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:11:27.792+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.428 seconds
+[2023-05-17T13:11:58.741+0000] {processor.py:156} INFO - Started process (PID=513) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:11:58.760+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:11:58.767+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:11:58.766+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:11:59.022+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:11:59.009+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:11:59.026+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:11:59.410+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.685 seconds
+[2023-05-17T13:12:29.765+0000] {processor.py:156} INFO - Started process (PID=571) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:12:29.769+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:12:29.771+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:12:29.770+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:12:29.859+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:12:29.837+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:12:29.863+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:12:30.074+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.320 seconds
+[2023-05-17T13:13:19.905+0000] {processor.py:156} INFO - Started process (PID=618) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:13:19.907+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:13:19.909+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:13:19.909+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:13:20.416+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:13:19.984+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:13:20.420+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:13:20.662+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.770 seconds
+[2023-05-17T13:13:50.779+0000] {processor.py:156} INFO - Started process (PID=674) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:13:50.783+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:13:50.785+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:13:50.785+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:13:50.992+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:13:50.851+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:13:51.000+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:13:51.281+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.513 seconds
+[2023-05-17T13:14:49.656+0000] {processor.py:156} INFO - Started process (PID=734) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:14:49.753+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:14:49.850+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:14:49.850+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:14:50.623+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:14:49.900+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:14:50.628+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:14:51.891+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 2.241 seconds
+[2023-05-17T13:15:24.184+0000] {processor.py:156} INFO - Started process (PID=790) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:15:24.197+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:15:24.200+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:15:24.199+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:15:24.272+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:15:24.262+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:15:24.276+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:15:24.691+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.514 seconds
+[2023-05-17T13:15:56.112+0000] {processor.py:156} INFO - Started process (PID=844) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:15:56.115+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:15:56.124+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:15:56.123+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:15:56.280+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:15:56.265+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:15:56.302+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:15:56.551+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.459 seconds
+[2023-05-17T13:16:27.133+0000] {processor.py:156} INFO - Started process (PID=900) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:16:27.138+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:16:27.142+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:16:27.141+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:16:27.882+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:16:27.610+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:16:27.888+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:16:29.123+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 2.000 seconds
+[2023-05-17T13:16:59.290+0000] {processor.py:156} INFO - Started process (PID=959) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:16:59.292+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:16:59.294+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:16:59.294+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:16:59.354+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:16:59.342+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:16:59.357+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:16:59.485+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.202 seconds
+[2023-05-17T13:17:29.661+0000] {processor.py:156} INFO - Started process (PID=1017) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:17:29.665+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:17:29.667+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:17:29.667+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:17:29.724+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:17:29.715+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:17:29.730+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:17:30.340+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.686 seconds
+[2023-05-17T13:18:13.045+0000] {processor.py:156} INFO - Started process (PID=1056) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:18:13.054+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:18:13.056+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:18:13.056+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:18:14.365+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:18:13.955+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:18:14.369+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:18:15.156+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 2.129 seconds
+[2023-05-17T13:18:51.226+0000] {processor.py:156} INFO - Started process (PID=1110) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:18:51.230+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:18:51.233+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:18:51.232+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:18:51.297+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:18:51.287+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:18:51.301+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:18:51.649+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.438 seconds
+[2023-05-17T13:19:22.244+0000] {processor.py:156} INFO - Started process (PID=1167) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:19:22.247+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:19:22.254+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:19:22.254+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:19:22.361+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:19:22.333+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:19:22.366+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:19:23.271+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 1.039 seconds
+[2023-05-17T13:19:55.438+0000] {processor.py:156} INFO - Started process (PID=1225) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:19:55.441+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:19:55.443+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:19:55.443+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:19:55.517+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:19:55.490+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:19:55.523+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:19:56.009+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.581 seconds
+[2023-05-17T13:20:26.910+0000] {processor.py:156} INFO - Started process (PID=1283) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:20:26.917+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:20:26.920+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:20:26.919+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:20:27.120+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:20:27.104+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:20:27.125+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:20:27.292+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.399 seconds
+[2023-05-17T13:20:57.854+0000] {processor.py:156} INFO - Started process (PID=1341) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:20:57.857+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:20:57.858+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:20:57.858+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:20:58.062+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:20:58.051+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:20:58.066+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:20:58.478+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.632 seconds
+[2023-05-17T13:21:29.131+0000] {processor.py:156} INFO - Started process (PID=1394) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:21:29.134+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:21:29.137+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:21:29.136+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:21:29.193+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:21:29.183+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:21:29.196+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:21:30.239+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 1.122 seconds
+[2023-05-17T13:22:04.133+0000] {processor.py:156} INFO - Started process (PID=1453) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:22:04.135+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:22:04.137+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:22:04.137+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:22:04.209+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:22:04.195+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:22:04.213+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:22:04.979+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.879 seconds
+[2023-05-17T13:22:40.444+0000] {processor.py:156} INFO - Started process (PID=1486) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:22:40.447+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:22:40.449+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:22:40.449+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:22:40.565+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:22:40.547+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:22:40.570+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:22:41.677+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 1.243 seconds
+[2023-05-17T13:23:16.496+0000] {processor.py:156} INFO - Started process (PID=1541) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:23:16.502+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:23:16.519+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:23:16.518+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:23:16.596+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:23:16.583+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:23:16.601+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:23:18.215+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 1.742 seconds
+[2023-05-17T13:23:48.316+0000] {processor.py:156} INFO - Started process (PID=1598) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:23:48.320+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:23:48.322+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:23:48.322+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:23:48.410+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:23:48.395+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:23:48.416+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:23:48.614+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.309 seconds
+[2023-05-17T13:24:18.848+0000] {processor.py:156} INFO - Started process (PID=1652) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:24:18.852+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:24:18.863+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:24:18.863+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:24:18.942+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:24:18.929+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:24:18.946+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:24:19.115+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.287 seconds
+[2023-05-17T13:24:50.168+0000] {processor.py:156} INFO - Started process (PID=1710) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:24:50.170+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:24:50.172+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:24:50.172+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:24:50.342+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:24:50.239+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:24:50.347+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:24:50.465+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.305 seconds
+[2023-05-17T13:25:21.101+0000] {processor.py:156} INFO - Started process (PID=1766) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:25:21.105+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:25:21.107+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:25:21.107+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:25:21.173+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:25:21.162+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:25:21.177+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:25:21.391+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.303 seconds
+[2023-05-17T13:25:53.709+0000] {processor.py:156} INFO - Started process (PID=1818) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:25:53.715+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:25:53.723+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:25:53.722+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:25:53.871+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:25:53.849+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:25:53.885+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:25:54.114+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.421 seconds
+[2023-05-17T13:26:30.189+0000] {processor.py:156} INFO - Started process (PID=1874) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:26:30.191+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:26:30.194+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:26:30.192+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:26:30.256+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:26:30.246+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:26:30.269+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:26:31.425+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 1.242 seconds
+[2023-05-17T13:27:01.725+0000] {processor.py:156} INFO - Started process (PID=1927) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:27:01.728+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:27:01.731+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:27:01.730+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:27:01.794+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:27:01.783+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:27:01.799+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:27:02.057+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.342 seconds
+[2023-05-17T13:32:01.360+0000] {processor.py:156} INFO - Started process (PID=45) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:32:01.365+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:32:01.368+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:32:01.368+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:32:01.443+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:32:01.422+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:32:01.452+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:32:01.590+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.240 seconds
+[2023-05-17T13:33:18.079+0000] {processor.py:156} INFO - Started process (PID=105) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:33:18.081+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:33:18.083+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:33:18.083+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:33:18.143+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:33:18.131+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:33:18.148+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:33:19.219+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 1.146 seconds
+[2023-05-17T13:34:20.539+0000] {processor.py:156} INFO - Started process (PID=160) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:34:20.541+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:34:20.545+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:34:20.545+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:34:20.601+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:34:20.591+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:34:20.605+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:34:22.027+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 1.503 seconds
+[2023-05-17T13:36:34.821+0000] {processor.py:156} INFO - Started process (PID=218) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:36:34.824+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:36:34.825+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:36:34.825+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:36:34.875+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:36:34.866+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:36:34.880+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:36:35.129+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.316 seconds
+[2023-05-17T13:37:07.383+0000] {processor.py:156} INFO - Started process (PID=271) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:37:07.385+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:37:07.388+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:37:07.387+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:37:07.439+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:37:07.429+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:37:07.445+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:37:08.028+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.652 seconds
+[2023-05-17T13:37:38.276+0000] {processor.py:156} INFO - Started process (PID=325) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:37:38.279+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:37:38.284+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:37:38.283+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:37:38.334+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:37:38.324+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:37:38.340+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:37:38.421+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.160 seconds
+[2023-05-17T13:38:08.823+0000] {processor.py:156} INFO - Started process (PID=382) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:38:08.826+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:38:08.829+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:38:08.828+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:38:08.884+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:38:08.874+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:38:08.890+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:38:08.980+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.166 seconds
+[2023-05-17T13:38:39.435+0000] {processor.py:156} INFO - Started process (PID=435) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:38:39.438+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:38:39.441+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:38:39.441+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:38:39.490+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:38:39.479+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:38:39.495+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:38:39.607+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.182 seconds
+[2023-05-17T13:39:10.365+0000] {processor.py:156} INFO - Started process (PID=494) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:39:10.369+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:39:10.371+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:39:10.371+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:39:10.471+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:39:10.430+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:39:10.475+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:39:10.712+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.362 seconds
+[2023-05-17T13:39:41.059+0000] {processor.py:156} INFO - Started process (PID=553) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:39:41.061+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:39:41.063+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:39:41.063+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:39:41.129+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:39:41.111+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:39:41.906+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:39:42.183+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 1.133 seconds
+[2023-05-17T13:40:12.605+0000] {processor.py:156} INFO - Started process (PID=610) to work on /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:40:12.609+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/get_crypto_dag.py for tasks to queue
+[2023-05-17T13:40:12.611+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:40:12.611+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:40:12.692+0000] {logging_mixin.py:149} INFO - [2023-05-17T13:40:12.678+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/get_crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_crypto_dag.py", line 1, in <module>
+    import yfinance
+ModuleNotFoundError: No module named 'yfinance'
+[2023-05-17T13:40:12.697+0000] {processor.py:811} WARNING - No viable dags retrieved from /opt/airflow/dags/get_crypto_dag.py
+[2023-05-17T13:40:12.827+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/get_crypto_dag.py took 0.235 seconds
